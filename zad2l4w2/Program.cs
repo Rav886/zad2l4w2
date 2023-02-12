@@ -6,19 +6,15 @@
         {
             Console.WriteLine("Podaj pierwszą litere");
 
-            string first = Console.ReadLine();
-            char.Parse(first);
+            string first = Console.ReadLine();            
 
             Console.WriteLine("Podaj drugą litere");
 
             string secound = Console.ReadLine();
-            char.Parse(secound);
-
-
+            
             Console.WriteLine("Podaj trzecią litere");
 
-            string third = Console.ReadLine();
-            char.Parse(third);
+            string third = Console.ReadLine();           
 
             Console.WriteLine($"Podane litery w odwrotnej kolejności: {third}, {secound}, {first} ");
         }
